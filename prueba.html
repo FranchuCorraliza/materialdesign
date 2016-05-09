@@ -1,0 +1,185 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>mi wether</title>
+    <!-- El Meta Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- El CSS de Material Design con un color establecido , yo usaré el color Rosado Índigo -->
+<link rel="stylesheet" href="material.indigo-pink.min.css">
+<!-- El archivo JS de Material Design -->
+<script src="material.min.js"></script>
+<!-- Un tipo de Fuente desde Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+<!-- El Cuadro de texto Buscar -->
+<div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+ <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+   <i class="material-icons">search</i>
+ </label>
+<div class="mdl-textfield__expandable-holder">
+   <input class="mdl-textfield__input" type="text" id="search-field" />
+  </div>
+</div>
+<!-- El Menú de Navegación -->
+<div class="android-navigation-container">
+<nav class="android-navigation mdl-navigation">
+  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Smartphones</a>
+  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tablets</a>
+  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Wearables</a>
+  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">TVs</a>
+  <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Autos</a>
+ </nav>
+</div>
+<!-- Este es el menú desplegable característico de Google Material Design -->
+<button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+<i class="material-icons">more_vert</i>
+</button>
+<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+<li class="mdl-menu__item">5.0 Lollipop</li>
+<li class="mdl-menu__item">4.4 KitKat</li>
+<li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+<li class="mdl-menu__item">Historia de Android</li>
+ </ul>
+<!-- Nuestro Logo -->
+<span class="android-mobile-title mdl-layout-title">
+  <img class="android-logo-image" src="images/android-logo.png">
+</span>
+<!-- Espacio para nuestro Slider -->
+<div class="android-be-together-section mdl-typography--text-center">
+<div class="android-font android-slogan">todos juntos. pero diferentes.</div>
+<div class="android-font android-sub-slogan">Bienvenido a android ... sé tú mismo. crea el tuyo. mira lo que está pasando.
+   </div>
+<div class="android-font android-create-character">
+       <a href=""><img src="images/andy.png"> crea tu personaje android</a>
+     </div>
+   <a href="#screens">
+      <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+        <i class="material-icons">expand_more</i>
+      </button>
+   </a>
+</div>
+<!-- Contenido con 4 columnas debajo del Slider -->
+<div class="android-card-container mdl-grid">
+<!-- Columna 1 -->
+<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+<div class="mdl-card__media">
+        <img src="images/more-from-1.png">
+      </div>
+<div class="mdl-card__title">
+<h4 class="mdl-card__title-text">Empieze ya con Android</h4>
+      </div>
+<div class="mdl-card__supporting-text">
+        <span class="mdl-typography--font-light mdl-typography--subhead">Cuatro consejos para hacer su cambio a Android rápido y fácil</span>
+      </div>
+<div class="mdl-card__actions">
+        <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+          Cambiarme ahora mismo
+          <i class="material-icons">chevron_right</i>
+        </a>
+      </div>
+    </div>
+<!-- Columna 2 -->
+<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+<div class="mdl-card__media">
+         <img src="images/more-from-4.png">
+       </div>
+<div class="mdl-card__title">
+<h4 class="mdl-card__title-text">Crea tu Personaje en Android</h4>
+       </div>
+<div class="mdl-card__supporting-text">
+          <span class="mdl-typography--font-light mdl-typography--subhead">Comparte con tus amigos la foto y Diviertete mucho !</span>
+       </div>
+<div class="mdl-card__actions">
+          <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://androidify.com" target="_blank">
+                   androidify.com
+          <i class="material-icons">chevron_right</i>
+          </a>
+        </div>
+     </div>
+<!-- Columna 3 -->
+<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+<div class="mdl-card__media">
+         <img src="images/more-from-2.png">
+       </div>
+<div class="mdl-card__title">
+<h4 class="mdl-card__title-text">Pantalla de inicio personalizada</h4>
+       </div>
+<div class="mdl-card__supporting-text">
+         <span class="mdl-typography--font-light mdl-typography--subhead">Una pantalla limpia, sencilla, personalizable acompañado con el poder de Google Now: alertas de tráfico, el clima y mucho más, distancia de un lugar a otro.</span>
+       </div>
+<div class="mdl-card__actions">
+         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+           Descargar
+         <i class="material-icons">chevron_right</i>
+         </a>
+       </div>
+      </div>
+<!-- Columna 4 -->
+<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+<div class="mdl-card__media">
+          <img src="images/more-from-3.png">
+      </div>
+<div class="mdl-card__title">
+<h4 class="mdl-card__title-text">Muchs Apps para elegir</h4>
+      </div>
+<div class="mdl-card__supporting-text">
+       <span class="mdl-typography--font-light mdl-typography--subhead">Llamar a un taxi, encontrar una receta, navegar por un templo - Google Play cuenta con todas las aplicaciones y juegos que te permitirán aprovechar tu dispositivo Android al máximo.</span>
+      </div>
+<div class="mdl-card__actions">
+         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+           Buscar apps
+         <i class="material-icons">chevron_right</i>
+         </a>
+      </div>
+     </div>
+</div>
+<!-- Pie de Página o Footer -->
+<footer class="android-footer mdl-mega-footer">
+<div class="mdl-mega-footer--top-section">
+<div class="mdl-mega-footer--left-section">
+       <button class="mdl-mega-footer--social-btn">G +</button>
+          
+       <button class="mdl-mega-footer--social-btn">F</button>
+          
+       <button class="mdl-mega-footer--social-btn">T</button>
+     </div>
+<div class="mdl-mega-footer--right-section">
+        <a class="mdl-typography--font-light" href="#top">
+           Subir arriba
+           <i class="material-icons">expand_less</i>
+        </a>
+      </div>
+   </div>
+<div class="mdl-mega-footer--middle-section">
+Android © 2015 USA
+Algunas características y dispositivos pueden no estar disponibles en todas las áreas
+   </div>
+<div class="mdl-mega-footer--bottom-section">
+     <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+       Versiones
+       <i class="material-icons">arrow_drop_up</i>
+     </a>
+<ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+<li class="mdl-menu__item">5.0 Lollipop</li>
+<li class="mdl-menu__item">4.4 KitKat</li>
+<li class="mdl-menu__item">4.3 Jelly Bean</li>
+<li class="mdl-menu__item">Android History</li>
+      </ul>
+      <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+         Para Desarrolladores
+         <i class="material-icons">arrow_drop_up</i>
+      </a>
+<ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+<li class="mdl-menu__item">Recursos para desarrollo de Apps</li>
+<li class="mdl-menu__item">Android Open Source Project</li>
+<li class="mdl-menu__item">Android SDK</li>
+<li class="mdl-menu__item">Android para el Trabajo</li>
+         </ul>
+         <a class="android-link mdl-typography--font-light" href="">Blog</a>
+         <a class="android-link mdl-typography--font-light" href="">Política de Privacidad</a>
+   </div>
+</footer>
+</body>
+</html>
